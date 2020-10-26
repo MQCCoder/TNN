@@ -44,6 +44,7 @@ function build_android() {
           -DANDROID_STL=c++_static \
           -DANDROID_NATIVE_API_LEVEL=android-14  \
           -DANDROID_TOOLCHAIN=clang \
+          -DTNN_BENCHMARK_MODE:BOOL="ON" \
           -DTNN_TEST_ENABLE:BOOL="ON"  \
           -DTNN_UNIT_TEST_ENABLE:BOOL="ON"  \
           -DTNN_ARM_ENABLE:BOOL="ON" \
